@@ -10,10 +10,10 @@ devDependencies:
     version: 1.56.0
   '@sveltejs/adapter-auto':
     specifier: ^6.0.0
-    version: 6.1.1(@sveltejs/kit@2.46.5)
+    version: 6.1.1(@sveltejs/kit@2.47.1)
   '@sveltejs/kit':
     specifier: ^2.0.0
-    version: 2.46.5(@sveltejs/vite-plugin-svelte@6.2.1)(svelte@5.40.0)(vite@7.1.9)
+    version: 2.47.1(@sveltejs/vite-plugin-svelte@6.2.1)(svelte@5.40.0)(vite@7.1.9)
   '@typescript-eslint/eslint-plugin':
     specifier: ^8.0.0
     version: 8.46.1(@typescript-eslint/parser@8.46.1)(eslint@9.37.0)(typescript@5.9.3)
@@ -646,16 +646,16 @@ packages:
       acorn: 8.15.0
     dev: true
 
-  /@sveltejs/adapter-auto@6.1.1(@sveltejs/kit@2.46.5):
+  /@sveltejs/adapter-auto@6.1.1(@sveltejs/kit@2.47.1):
     resolution: {integrity: sha512-cBNt4jgH4KuaNO5gRSB2CZKkGtz+OCZ8lPjRQGjhvVUD4akotnj2weUia6imLl2v07K3IgsQRyM36909miSwoQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
     dependencies:
-      '@sveltejs/kit': 2.46.5(@sveltejs/vite-plugin-svelte@6.2.1)(svelte@5.40.0)(vite@7.1.9)
+      '@sveltejs/kit': 2.47.1(@sveltejs/vite-plugin-svelte@6.2.1)(svelte@5.40.0)(vite@7.1.9)
     dev: true
 
-  /@sveltejs/kit@2.46.5(@sveltejs/vite-plugin-svelte@6.2.1)(svelte@5.40.0)(vite@7.1.9):
-    resolution: {integrity: sha512-7TSvMrCdmig5TMyYDW876C5FljhA0wlGixtvASCiqUqtLfmyEEpaysXjC7GhR5mWcGRrCGF+L2Bl1eEaW1wTCA==}
+  /@sveltejs/kit@2.47.1(@sveltejs/vite-plugin-svelte@6.2.1)(svelte@5.40.0)(vite@7.1.9):
+    resolution: {integrity: sha512-1v+MbMHxTi6ctQyxmz3owLKqZGaBHyx4EQqTdq/PvDswPFzw3WlqhrOKOh2ZzH23+XpQGEF9G+KDIgYJE+byvg==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -673,7 +673,7 @@ packages:
       '@types/cookie': 0.6.0
       acorn: 8.15.0
       cookie: 0.6.0
-      devalue: 5.3.2
+      devalue: 5.4.1
       esm-env: 1.2.2
       kleur: 4.1.5
       magic-string: 0.30.19
@@ -1120,8 +1120,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /devalue@5.3.2:
-    resolution: {integrity: sha512-UDsjUbpQn9kvm68slnrs+mfxwFkIflOhkanmyabZ8zOYk8SMEIbJ3TK+88g70hSIeytu4y18f0z/hYHMTrXIWw==}
+  /devalue@5.4.1:
+    resolution: {integrity: sha512-YtoaOfsqjbZQKGIMRYDWKjUmSB4VJ/RElB+bXZawQAQYAo4xu08GKTMVlsZDTF6R2MbAgjcAQRPI5eIyRAT2OQ==}
     dev: true
 
   /es-module-lexer@1.7.0:
